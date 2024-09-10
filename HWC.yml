@@ -2,10 +2,10 @@
   tasks:
   - name: Creating an empty file
     file:
-      path: "/Users/Harry.Marvell/Desktop/HWC/.env"
+      path: "/Users/<user>/Desktop/HWC/.env"
       state: touch
       
   - name: Creating Environment Variable
     copy:
-      dest: "/Users/Harry.Marvell/Desktop/HWC/.env"
+      dest: "/Users/<user>/Desktop/HWC/.env"
       content: TASK="Hello World!"
